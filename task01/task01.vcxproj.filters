@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="util.h">
+    <ClInclude Include="linear_search_algo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="linear_search_algo.h">
+    <ClInclude Include="util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
