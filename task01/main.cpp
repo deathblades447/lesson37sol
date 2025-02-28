@@ -5,13 +5,16 @@
 int main() {
 	int array[BUF];
 
-	int size;
+	/*int size;
 	cout << "Input size of array: ";
-	cin >> size;
-	
+	cin >> size;*/
+	int array[]{ 1,2,3,4,5,6,7,8,9,10,13,20,30,35,16 };
+	int size = 15;
+
 	int value;
 	cout << "Input find value: ";
 	cin >> value;
+	
 
 	init(array, size, -20, 50);
 	cout << "Array: " << convert(array, size) << endl;
@@ -20,9 +23,13 @@ int main() {
 
 	cout << "Answer: " << msg << endl;
 
-	cout << "First value index is " 
+	cout << "First value index is "
 		<< find_first_value_index(array, size, value) << endl;
+
 	cout << "Last value index is "
 		<< find_last_value_index(array, size, value) << endl;
+
+	cout << "Count of value is " << count_value(array, size, value) << endl;
+
 	return 0;
 }
